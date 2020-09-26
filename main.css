@@ -75,6 +75,14 @@ body{
     transform: translateZ(80px);
 }
 
+.nav-sia{
+    background-color:#131A27;
+}
+
+.nav-sia a {
+    color:white;
+}
+
 
 /* ax sabet */
 .tasvir{
