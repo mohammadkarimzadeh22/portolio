@@ -76,11 +76,11 @@ body{
 }
 
 .nav-sia{
-    background-color:#131A27;
+    background-color:#131A27 !important;
 }
 
 .nav-sia a {
-    color:white;
+    color:white !important;
 }
 
 
