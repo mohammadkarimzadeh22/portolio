@@ -222,6 +222,7 @@ body{
 /* ax sabet */
 .tasvir{
     background-image: url("ave.jpg");
+    width: auto;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -281,8 +282,9 @@ span:nth-child(4){
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
-  height: 150px;
+  max-width: 800px;
+  min-width: auto;
+  height: 400px;
   transform-style: preserve-3d;
   transform: perspective(100px);
 }
@@ -295,15 +297,15 @@ span:nth-child(4){
     width: 100%;
     height: 100%;
     position: absolute;
-    transform: translateZ(30px);
+    transform: translateZ(50px);
 }
 
-.img3{
+/* .img3{
     width: 100%;
     height: 100%;
     position: absolute;
     transform: translateZ(40px);
-}
+} */
 
 
 
@@ -348,5 +350,63 @@ i{
 
 
 
+/* ax 3tayi */
+.tarkib{
+  position: relative;
+  width: auto;
+  height: 500px;
+  background: #131A27;
+}
+
+.tarkib .ax{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.tarkib .ax.ax1{
+  background: url(anunziata.jpg);
+  background-size: cover;
+  clip-path: polygon(0 0, 55% 0, 20% 100%, 0 100%);
+}
+
+.tarkib .ax.ax2{
+  background: url(martynov.jpg);
+  background-size: cover;
+  clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
+}
+
+.tarkib .ax.ax3{
+  background: url(white.jpg);
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+}
+
+.tarkib:hover .ax{
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.tarkib .ax:hover{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.tarkib .ax .neveshte{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 70%;
+  padding: 20px;
+  background: #fff;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tarkib .ax:hover .neveshte{
+  bottom: 0;
+  opacity: 1;
+}
 
 
