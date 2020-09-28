@@ -223,7 +223,7 @@ body{
 .tasvir{
     background-image: url("ave.jpg");
     width: auto;
-    min-height: 100vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
