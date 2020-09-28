@@ -177,7 +177,7 @@ body{
     
     letter-spacing: 1px;
     font-weight: bold;
-    background: url('martynov.jpg');
+    background: url('img/martynov.jpg');
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -221,7 +221,7 @@ body{
 
 /* ax sabet */
 .tasvir{
-    background-image: url("ave.jpg");
+    background-image: url("img/ave.jpg");
     width: auto;
     height: 100vh;
     background-attachment: fixed;
@@ -354,7 +354,7 @@ i{
 .tarkib{
   position: relative;
   width: auto;
-  height: 500px;
+  height: 50vh;
   background: #131A27;
 }
 
@@ -368,19 +368,19 @@ i{
 }
 
 .tarkib .ax.ax1{
-  background: url(anunziata.jpg);
+  background: url(img/anunziata.jpg);
   background-size: cover;
   clip-path: polygon(0 0, 55% 0, 20% 100%, 0 100%);
 }
 
 .tarkib .ax.ax2{
-  background: url(martynov.jpg);
+  background: url(img/martynov.jpg);
   background-size: cover;
   clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 }
 
 .tarkib .ax.ax3{
-  background: url(white.jpg);
+  background: url(img/white.jpg);
   background-size: cover;
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
@@ -408,5 +408,3 @@ i{
   bottom: 0;
   opacity: 1;
 }
-
-
