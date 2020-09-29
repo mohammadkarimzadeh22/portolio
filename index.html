@@ -55,7 +55,7 @@
 
 
 <!-- ax sabet -->
-<div class="container-fluid col-sm-auto col-md-auto">
+<!-- <div class="container-fluid col-sm-auto col-md-auto">
   <div class="tasvir">
     <p class="parag mern">
       <span>B</span>
@@ -64,7 +64,38 @@
       <span>O</span>
   </p>
   </div>
+</div> -->
+
+
+<!-- header ax -->
+<div class="container-fluid ">
+<section>
+  <img src="img/header/bg.jpg" id="bg">
+  <img src="img/header/moon.png" id="moon">
+  <img src="img/header/mountain.png" id="mountain">
+  <img src="img/header/road.png" id="road">
+  <h2 id="textt">Moon Light</h2>
+</section>
 </div>
+
+<script type="text/javascript">
+ let bg = document.getElementById("bg");
+ let moon = document.getElementById("moon");
+ let mountain = document.getElementById("mountain");
+ let road = document.getElementById("road");
+ let textt = document.getElementById("textt");
+
+window.addEventListener('scroll', function(){
+  var value = window.scrollY;
+
+  bg.style.top = value * 0.5 + 'px';
+  moon.style.left = -value * 0.5 + 'px';
+  mountain.style.top = -value * 0.15 + 'px';
+  road.style.top = value * 0.15 + 'px';
+  textt.style.top = value * 1 + 'px';
+})
+
+</script>
 
 
 <!-- matn moteharek -->
@@ -130,7 +161,7 @@
 
 
 <!-- ax 3tayi -->
-<div class="container mx-auto">
+<!-- <div class="container mx-auto">
 
 <div class="tarkib">
   <div class="ax ax1">
@@ -153,7 +184,7 @@
   </div>
 </div>
 
-</div>
+</div> -->
 
 <br>
 <br>
